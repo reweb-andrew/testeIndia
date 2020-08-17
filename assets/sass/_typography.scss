@@ -1,0 +1,350 @@
+body {
+	font-size: 18px;
+	line-height: 1em;
+	font-weight: 400;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	font-family: $font-family;
+}
+h1 {
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 1.167em;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word
+}
+@media only screen and (max-width: 680px) {
+	h1 {
+		font-size: 48px
+	}
+}
+h2 {
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 1.146em;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word
+}
+@media only screen and (max-width: 680px) {
+	h2 {
+		font-size: 40px
+	}
+}
+h3 {
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 1.25em;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word
+}
+@media only screen and (max-width: 680px) {
+	h3 {
+		font-size: 32px
+	}
+}
+h4 {
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 1.231em;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word
+}
+h5 {
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 1.364em;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word
+}
+h6 {
+	font-weight: 900;
+	font-size: 15px;
+	line-height: 1.538em;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word
+}
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1rem
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  text-decoration: none;
+}
+
+.huge {
+  font-size: 10em;
+}
+
+pre {
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+blockquote {
+  padding: 1.875rem;
+  margin: 1.875rem 0;
+  background: $secondary-color;
+  color: $primary-color;
+  border-left: 4px solid $primary-color;;
+  font-size: 1.25rem;
+  line-height: 1.7
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+blockquote cite {
+  font-weight: 400;
+  text-transform: uppercase;
+  display: block;
+}
+
+p.lead {
+  font-size: 145%;
+}
+
+.lighter p {
+  color: #ccc;
+}
+
+p.small {
+  font-size: 0.625rem;
+  line-height: 0.8125rem;
+}
+
+.big {
+  font-size: 200%;
+  line-height: 1.5;
+}
+
+.thin {
+  font-weight: 300;
+}
+
+p.drop-caps:first-letter {
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 4px;
+  font-size: 75px;
+  line-height: 60px;
+}
+
+p.drop-caps.secondary:first-letter {
+  margin-right: 10px;
+  padding: 6px 12px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: white;
+}
+
+ul {
+  margin: 0 0 1.25rem 20px;
+  list-style-type: disc;
+	list-style-position: outside
+}
+
+ol {
+  margin: 0 0 1.25rem 20px;
+  list-style-type: decimal;
+	list-style-position: outside
+}
+
+ul ul, ol ul, ol ol {
+  margin: 0.625rem 0 0.625rem 1.25rem;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+dl {
+  margin: 0.625rem 0;
+}
+
+dl dt {
+  font-weight: 700;
+}
+
+address.ico i {
+  display: inline-block;
+  float: left;
+  clear: both;
+  padding-top: 3px;
+}
+
+address.ico p {
+  margin: 0;
+  padding-bottom: 0.625rem;
+}
+
+address.ico span {
+  display: inline-block;
+  padding-left: 1.25rem;
+}
+
+.cursive {
+  font-style: italic;
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  line-height: 1.4em;
+  resize: vertical;
+}
+
+a[href^=tel] {
+  text-decoration: inherit;
+  color: inherit;
+}
+/* ================================================== 04. MARGIN BOTTOM SETS ================================================== */
+.margin-0 {
+  margin-bottom: 0;
+}
+
+.margin-5 {
+  margin-bottom: 5px;
+}
+
+.margin-10 {
+  margin-bottom: 10px;
+}
+
+.margin-15 {
+  margin-bottom: 15px;
+}
+
+.margin-20 {
+  margin-bottom: 20px;
+}
+
+.margin-30 {
+  margin-bottom: 30px;
+}
+
+.margin-40 {
+  margin-bottom: 40px;
+}
+
+.margin-50 {
+  margin-bottom: 50px;
+}
+
+.margin-60 {
+  margin-bottom: 60px;
+}
+
+.margin-70 {
+  margin-bottom: 70px;
+}
+
+.margin-80 {
+  margin-bottom: 80px;
+}
+/* ================================================== 05. PADDING SETS ================================================== */
+.padding-b0 {
+  padding-bottom: 0;
+}
+
+.padding-tb0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.padding-tb20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padding-tb45 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.padding-tb60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.padding-tb75 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.padding-tb100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.padding-tb125 {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+/* ================================================== 06. SPACER SETS ================================================== */
+.spacer-10 {
+  height: 10px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-20 {
+  height: 20px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-30 {
+  height: 30px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-40 {
+  height: 40px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-45 {
+  height: 45px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-50 {
+  height: 50px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-60 {
+  height: 60px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-75 {
+  height: 75px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-90 {
+  height: 90px;
+  clear: both;
+  width: 100%;
+}
+
+.spacer-100 {
+  height: 100px;
+  clear: both;
+  width: 100%;
+}
